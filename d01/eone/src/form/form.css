@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  background-color: orange;
+  background-color: rgba(207, 252, 255, 0.31);
 }
 
 #singleLine {
@@ -47,5 +47,15 @@ body {
 }
 
 ::placeholder {
-  color: white;
+  color: #9ee37d;
+}
+
+.uploadSquare {
+  width: 380px;
+  height: 173px;
+  border: 2px solid #9ee37d;
+  padding: 1.25rem;
+  border-radius: 30px;
+  resize: none;
+  background-color: inherit;
 }
