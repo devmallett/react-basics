@@ -1,4 +1,5 @@
 import React from "react";
+import "./form.css";
 
 const Form = () => {
   const count = 4;
@@ -8,9 +9,9 @@ const Form = () => {
         <h5 className="form-step">steps: {count} of 4</h5>
         <form action="">
           <div className="field1">
-            <label htmlFor="">Customer Info</label>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Phone 000-000-0000" />
+            <label htmlFor="singleLine">Customer Info</label>
+            <input id="singleLine" type="text" placeholder="Name" />
+            {/* <input type="text" placeholder="Phone 000-000-0000" />
             <input type="text" placeholder="E-mail" />
             <textarea
               name=""
@@ -25,15 +26,15 @@ const Form = () => {
               id=""
               cols="30"
               rows="10"
-            />
+            /> */}
           </div>
-          <button type="submit" id="submitBtn" className="submitBtn">
-            Submit
-          </button>
+          {/* <button type="submit" id="submitBtn" className="submitBtn"> */}
+          {/* Submit */}
+          {/* </button> */}
         </form>
 
-        <button className="prevBtn">Prev</button>
-        <button className="nextBtn">Next</button>
+        {/* <button className="prevBtn">Prev</button> */}
+        {/* <button className="nextBtn">Next</button> */}
       </div>
     </div>
   );
