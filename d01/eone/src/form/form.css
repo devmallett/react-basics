@@ -33,6 +33,7 @@ body {
   border: none;
 } */
 
+/* A Text area with a single bottom border */
 .field2 {
   outline: none;
   border-color: white;
@@ -50,6 +51,7 @@ body {
   color: #9ee37d;
 }
 
+/* A text area with styles pulled from figma */
 .uploadSquare {
   width: 380px;
   height: 173px;
