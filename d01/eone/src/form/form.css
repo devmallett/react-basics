@@ -35,14 +35,17 @@ body {
 
 .field2 {
   outline: none;
-  /* border-top: 10px;
+  border-color: white;
+  border-top: 10px;
   border-right: none;
-  border-left: none; */
+  border-left: none;
   padding: 1.25rem;
   background-color: inherit;
-  border-radius: 2.5px;
+  /* border-radius: 2.5px; */
+  color: white;
+  resize: none;
 }
 
-.field2 > input {
-  font-family: inherit;
+::placeholder {
+  color: white;
 }
