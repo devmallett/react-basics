@@ -8,10 +8,11 @@ body {
 }
 
 #singleLine {
-  border: none;
+  /* border: none; */
   /* border-bottom: 10px; */
-  border-color: red;
-  text-underline-position: under;
+
+  /* border-color: red; */
+  /* text-underline-position: under; */
 }
 
 .field1 > input {
@@ -22,6 +23,9 @@ body {
   height: 100%;
   outline: none;
   padding: 1.25rem;
+  border-top: 10px;
+  border-right: none;
+  border-left: none;
 }
 /* #singleLine::after {
   border: none;
