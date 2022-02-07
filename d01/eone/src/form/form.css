@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  background-color: orange;
 }
 
 #singleLine {
@@ -15,6 +16,7 @@ body {
   /* text-underline-position: under; */
 }
 
+/* Single field with text on it  */
 .field1 > input {
   position: relative;
   width: 20rem;
@@ -30,3 +32,17 @@ body {
 /* #singleLine::after {
   border: none;
 } */
+
+.field2 {
+  outline: none;
+  /* border-top: 10px;
+  border-right: none;
+  border-left: none; */
+  padding: 1.25rem;
+  background-color: inherit;
+  border-radius: 2.5px;
+}
+
+.field2 > input {
+  font-family: inherit;
+}
